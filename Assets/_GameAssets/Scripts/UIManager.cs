@@ -9,11 +9,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject panelCorazones;
     [SerializeField] GameObject prefabCorazon;
     private GameManager gm;
+    private Text textoPuntuacion;
 
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-        int numeroCorazonesActuales = gm.GetNumeroCorazonesMax();
+        textoPuntuacion = GameObject.Find("TextoPuntuacion").GetComponent<Text>();
+        int numeroCorazonesActuales = gm.GetNumeroCorazones();
 
         for(int i = 0; i < numeroCorazonesActuales; i++)
         {
@@ -21,9 +23,17 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ActualizarVida(int numeroCorazones, float vidaCorazon)
     {
-        
+        GameObject[] corazones = GameObject.FindGameObjectsWithTag("ContenedorSalud");
+        GameObject ultimoCorazon = corazones[numeroCorazones - 1];
+        Image imagenultimoCorazon = ultimoCorazon.GetComponent<Image>();
+        imagenultimoCorazon.fillAmount = vidaCorazon;
+        //GameObject.FindGameObjectsWithTag("ContenedorSalud")[numeroCorazones - 1].GetComponent<Image>().fillAmount = vidaCorazon;
+    }
+
+    public void ActualizarPuntuacion(int puntuacion)
+    {
+        textoPuntuacion.text = puntuacion.ToString();
     }
 }

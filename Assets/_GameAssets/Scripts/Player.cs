@@ -7,10 +7,12 @@ public class Player : MonoBehaviour
     [SerializeField] float velocidad;
     private float x, y;
     private Rigidbody2D rb;
-    
+    private GameManager gm;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
     
     void Update()
@@ -27,8 +29,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void RecibirDaño(float daño)
+    public void RecibirDano(float dano)
     {
-
+        gm.QuitarVida(dano);
     }
 }
