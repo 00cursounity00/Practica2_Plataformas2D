@@ -58,19 +58,19 @@ TextureImporter:
     second: Ryu Hayabusa_17
   - first:
       213: -180688774435751608
-    second: Ryu Hayabusa_18
+    second: Ryu Hayabusa_s1
   - first:
       213: -6774183685635402248
-    second: Ryu Hayabusa_19
+    second: Ryu Hayabusa_s3
   - first:
       213: 7773803721036111798
-    second: Ryu Hayabusa_20
+    second: Ryu Hayabusa_s5
   - first:
       213: -277815456473473887
-    second: Ryu Hayabusa_21
+    second: Ryu Hayabusa_s6
   - first:
       213: -4171664934021412468
-    second: Ryu Hayabusa_22
+    second: Ryu Hayabusa_s7
   - first:
       213: 1578348364400821345
     second: Ryu Hayabusa_23
@@ -88,10 +88,10 @@ TextureImporter:
     second: Ryu Hayabusa_27
   - first:
       213: -1195926131663904122
-    second: Ryu Hayabusa_28
+    second: Ryu Hayabusa_s2
   - first:
       213: 7085300689227691461
-    second: Ryu Hayabusa_29
+    second: Ryu Hayabusa_s4
   - first:
       213: -1226181016370736443
     second: Ryu Hayabusa_30
@@ -575,7 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ryu Hayabusa_18
+      name: Ryu Hayabusa_s1
       rect:
         serializedVersion: 2
         x: 8
@@ -596,7 +596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ryu Hayabusa_19
+      name: Ryu Hayabusa_s3
       rect:
         serializedVersion: 2
         x: 64
@@ -617,7 +617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ryu Hayabusa_20
+      name: Ryu Hayabusa_s5
       rect:
         serializedVersion: 2
         x: 120
@@ -638,7 +638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ryu Hayabusa_21
+      name: Ryu Hayabusa_s6
       rect:
         serializedVersion: 2
         x: 144
@@ -659,7 +659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ryu Hayabusa_22
+      name: Ryu Hayabusa_s7
       rect:
         serializedVersion: 2
         x: 168
@@ -764,7 +764,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ryu Hayabusa_28
+      name: Ryu Hayabusa_s2
       rect:
         serializedVersion: 2
         x: 32
@@ -785,7 +785,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ryu Hayabusa_29
+      name: Ryu Hayabusa_s4
       rect:
         serializedVersion: 2
         x: 88
@@ -1137,6 +1137,27 @@ TextureImporter:
       bones: []
       spriteID: 0ed6883e7c694f942bdc9d469b964dbc
       internalID: -975047406960908379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu Hayabusa_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d1331b61f44e942accf9b94a0f35cf
+      internalID: -1220641231373768368
       vertices: []
       indices: 
       edges: []

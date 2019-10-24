@@ -34,9 +34,7 @@ public class GameManager : MonoBehaviour
         {
             ui.ActualizarVida(numeroCorazones, 0);
             numeroCorazones--;
-            print(vidaCorazon);
             vidaCorazon = vidaCorazonMax;
-            print(vidaCorazon);
 
             if (numeroCorazones == 0)
             {
