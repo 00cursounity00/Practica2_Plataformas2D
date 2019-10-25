@@ -218,6 +218,312 @@ TextureImporter:
   - first:
       213: -5679244402039908098
     second: ninja_71
+  - first:
+      213: -7413449673886331642
+    second: Yago_0
+  - first:
+      213: 2725818069050925030
+    second: Yago_1
+  - first:
+      213: -3279046644599825892
+    second: Yago_2
+  - first:
+      213: 6849799570966392252
+    second: Yago_3
+  - first:
+      213: 6608933108481665421
+    second: Yago_4
+  - first:
+      213: -7020187881083286511
+    second: Yago_5
+  - first:
+      213: 5059822368598614822
+    second: Yago_6
+  - first:
+      213: -8574059091643090741
+    second: Yago_7
+  - first:
+      213: -3915837103426704921
+    second: Yago_8
+  - first:
+      213: 3931740509997913600
+    second: Yago_9
+  - first:
+      213: 5142907151568087891
+    second: Yago_10
+  - first:
+      213: -3656774240869567027
+    second: Yago_11
+  - first:
+      213: -6734457361884359499
+    second: Yago_12
+  - first:
+      213: 3527434851055974599
+    second: Yago_13
+  - first:
+      213: 2521235223568167911
+    second: Yago_14
+  - first:
+      213: -1265271563885372127
+    second: Yago_15
+  - first:
+      213: -6960966740168676571
+    second: Yago_16
+  - first:
+      213: 3117568440353781759
+    second: Yago_17
+  - first:
+      213: -5516603672414434410
+    second: Yago_18
+  - first:
+      213: -4121253367730894846
+    second: Yago_19
+  - first:
+      213: -473233481773189292
+    second: Yago_20
+  - first:
+      213: -7753563775213676674
+    second: Yago_21
+  - first:
+      213: -3106601004814166276
+    second: Yago_22
+  - first:
+      213: 6012057925472617379
+    second: Yago_23
+  - first:
+      213: 1620316102957965206
+    second: Yago_24
+  - first:
+      213: -760659778310644070
+    second: Yago_25
+  - first:
+      213: -4950276793319840045
+    second: Yago_26
+  - first:
+      213: 4883165851758516753
+    second: Yago_27
+  - first:
+      213: 461440095494363065
+    second: Yago_28
+  - first:
+      213: 5825038520140166324
+    second: Yago_29
+  - first:
+      213: 7699899178955289865
+    second: Yago_30
+  - first:
+      213: 6105335267488632691
+    second: Yago_31
+  - first:
+      213: 373002615093353303
+    second: Yago_32
+  - first:
+      213: -8659760558747756458
+    second: Yago_33
+  - first:
+      213: -7290499468534276619
+    second: Yago_34
+  - first:
+      213: -5356981249629588440
+    second: Yago_35
+  - first:
+      213: -7706733883704323816
+    second: Yago_36
+  - first:
+      213: 2982600012386057582
+    second: Yago_37
+  - first:
+      213: -821300244424886177
+    second: Yago_38
+  - first:
+      213: -1931770351757125512
+    second: Yago_39
+  - first:
+      213: 1488590442053122897
+    second: Yago_40
+  - first:
+      213: -5832685031968071832
+    second: Yago_41
+  - first:
+      213: -3712448105492446468
+    second: Yago_42
+  - first:
+      213: 2234101440173509690
+    second: Yago_43
+  - first:
+      213: 3227054673437698417
+    second: Yago_44
+  - first:
+      213: 7249513478241496160
+    second: Yago_45
+  - first:
+      213: -5768674789527942316
+    second: Yago_46
+  - first:
+      213: 251342333757611993
+    second: Yago_47
+  - first:
+      213: 6786893623569298273
+    second: Yago_48
+  - first:
+      213: 5703255069997583128
+    second: Yago_49
+  - first:
+      213: -5890809592650555271
+    second: Yago_50
+  - first:
+      213: 4622167483117620226
+    second: Yago_51
+  - first:
+      213: -5520041221707471234
+    second: Yago_52
+  - first:
+      213: -3245033413502040435
+    second: Yago_53
+  - first:
+      213: 3138065756558369296
+    second: Yago_54
+  - first:
+      213: 3604105027081393736
+    second: Yago_55
+  - first:
+      213: 2857796449033803116
+    second: Yago_56
+  - first:
+      213: -1051565100412978760
+    second: Yago_57
+  - first:
+      213: -6852983658495454859
+    second: Yago_58
+  - first:
+      213: -8082981457841976821
+    second: Yago_59
+  - first:
+      213: -1454684846083984522
+    second: Yago_60
+  - first:
+      213: 301397299861445567
+    second: Yago_61
+  - first:
+      213: -3057115037574386380
+    second: Yago_62
+  - first:
+      213: 7767811813836691528
+    second: Yago_63
+  - first:
+      213: -5274560311782028131
+    second: Yago_64
+  - first:
+      213: -8621176974306909079
+    second: Yago_65
+  - first:
+      213: 384454856476354866
+    second: Yago_66
+  - first:
+      213: -7008519991031315110
+    second: Yago_67
+  - first:
+      213: 7080498829310347231
+    second: Yago_68
+  - first:
+      213: 8507451901325606204
+    second: Yago_69
+  - first:
+      213: 6599185102563163806
+    second: Yago_70
+  - first:
+      213: 4663928220388505225
+    second: Yago_71
+  - first:
+      213: 8712702912139062276
+    second: Yago_72
+  - first:
+      213: -1414941266455915891
+    second: Yago_73
+  - first:
+      213: 5373085154131285795
+    second: Yago_74
+  - first:
+      213: -1124958400201740282
+    second: Yago_75
+  - first:
+      213: -2630343468662880804
+    second: Yago_76
+  - first:
+      213: -2107312502878701431
+    second: Yago_77
+  - first:
+      213: 157496269099280682
+    second: Yago_78
+  - first:
+      213: 2969647164762315826
+    second: Yago_79
+  - first:
+      213: 2997464774436230648
+    second: Yago_80
+  - first:
+      213: -9036212615983741340
+    second: Yago_81
+  - first:
+      213: 4932164586310822739
+    second: Yago_82
+  - first:
+      213: -4646980146064175053
+    second: Yago_83
+  - first:
+      213: -6825954932215501978
+    second: Yago_84
+  - first:
+      213: 6058919955184360242
+    second: Yago_85
+  - first:
+      213: -3234297874776270044
+    second: Yago_86
+  - first:
+      213: 2727117533845624626
+    second: Yago_87
+  - first:
+      213: 8599544564941684276
+    second: Yago_88
+  - first:
+      213: 621602382404922084
+    second: Yago_89
+  - first:
+      213: -3591210637944502490
+    second: Yago_90
+  - first:
+      213: 1601004778325904396
+    second: Yago_91
+  - first:
+      213: -8052017711489281347
+    second: Yago_92
+  - first:
+      213: 5230838150560909777
+    second: Yago_93
+  - first:
+      213: -5697192870866704574
+    second: Yago_94
+  - first:
+      213: -4004253682376436316
+    second: Yago_95
+  - first:
+      213: 7689523584059447026
+    second: Yago_96
+  - first:
+      213: -2801286646895389402
+    second: Yago_97
+  - first:
+      213: -8596267866432056554
+    second: Yago_98
+  - first:
+      213: 107653675086655637
+    second: Yago_99
+  - first:
+      213: -3586626167662818848
+    second: Yago_100
+  - first:
+      213: -2797921366479338583
+    second: Yago_101
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -314,13 +620,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ninja_0
+      name: Yago_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 1086
-        width: 93
-        height: 92
+        x: 49
+        y: 2109
+        width: 94
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +634,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf33cab29762104ab7e61c3d1f1aa04
-      internalID: -2759152716061183957
+      spriteID: 8d030d21901f6cf439293cf8939ca333
+      internalID: -7413449673886331642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_1
+      name: Yago_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 1085
-        width: 93
-        height: 92
+        x: 204
+        y: 2111
+        width: 94
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +655,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b653f479781d35148889b0ccda4aa134
-      internalID: -5278401223733279651
+      spriteID: c680a071770bc0b4a89942cedc6eb005
+      internalID: 2725818069050925030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_2
+      name: Yago_2
       rect:
         serializedVersion: 2
-        x: 228
-        y: 1085
-        width: 93
-        height: 92
+        x: 350
+        y: 2108
+        width: 94
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +676,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ccdc80edf92b0b4c9889e33ee7907e9
-      internalID: 7650544888257819398
+      spriteID: b3933e2280a656b4a82677db2dd61ab9
+      internalID: -3279046644599825892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_3
+      name: Yago_3
       rect:
         serializedVersion: 2
-        x: 328
-        y: 1085
-        width: 93
-        height: 92
+        x: 46
+        y: 1895
+        width: 106
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,41 +697,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18d9de4cf3d413c459ff4419e3923353
-      internalID: 6895404226505592437
+      spriteID: 588416c8b61c0de4595f1dd871b9c6c6
+      internalID: 6849799570966392252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_4
+      name: Yago_4
       rect:
         serializedVersion: 2
-        x: 435
-        y: 1099
-        width: 99
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3e3554342c0d6d48ae8c59883b57a57
-      internalID: -7284473103597384837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_5
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 1091
+        x: 189
+        y: 1894
         width: 102
-        height: 104
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,19 +718,229 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ad917d4b0f9df54f816609c20931899
-      internalID: -9034525157243315170
+      spriteID: 6236c7e5c660e3a479888cdde96317ac
+      internalID: 6608933108481665421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_6
+      name: Yago_5
       rect:
         serializedVersion: 2
-        x: 637
-        y: 1085
+        x: 351
+        y: 1883
         width: 91
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4a09252d255004898934fe1ecea92e
+      internalID: -7020187881083286511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1880
+        width: 100
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64193ae71e470ca48839f4860e45a510
+      internalID: 5059822368598614822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_7
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1887
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab409308675d6f47ac65792cdbc9d62
+      internalID: -8574059091643090741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1875
+        width: 94
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b9bb3088dee734c939d9757a0cd3f5
+      internalID: -3915837103426704921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1673
+        width: 87
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b9515c9abdbcb40876f9ebab44f274
+      internalID: 3931740509997913600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_10
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1663
+        width: 200
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32689ebefbe8f342a5109e72ccea137
+      internalID: 5142907151568087891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_11
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1654
+        width: 101
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a754e56996b0322458e5da08e9696945
+      internalID: -3656774240869567027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1641
+        width: 249
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6785885a15358734ab5938b0bc7dfc7c
+      internalID: -6734457361884359499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_13
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1626
+        width: 218
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6672e64c96e76ce4d8ff320912511e9f
+      internalID: 3527434851055974599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_14
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1629
+        width: 231
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b5607723a5a1f42b00eb0f932319e8
+      internalID: 2521235223568167911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_16
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1404
+        width: 109
         height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -454,20 +949,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80b66759a4837c64bafba4f711593723
-      internalID: 7766104227058486404
+      spriteID: b8807a6c0a1b0c946ba1fdd2d19841b6
+      internalID: -6960966740168676571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_7
+      name: Yago_17
       rect:
         serializedVersion: 2
-        x: 728
-        y: 1092
-        width: 98
-        height: 98
+        x: 986
+        y: 1403
+        width: 115
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,251 +970,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b435fc54bac77e848a51e9e7346fdf53
-      internalID: 3201718221767417709
+      spriteID: bf1740f63a548c9468cf16e2142cc3aa
+      internalID: 3117568440353781759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_8
+      name: Yago_20
       rect:
         serializedVersion: 2
-        x: 825
-        y: 1093
-        width: 98
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 776a22f5ea9c0fe4c8c63ff8f97aa436
-      internalID: -7152223486056173435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_9
-      rect:
-        serializedVersion: 2
-        x: 922
-        y: 1088
-        width: 92
-        height: 109
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6846d3f024b22c84cb52eafff1482100
-      internalID: 5125832055453794580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_10
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 950
-        width: 88
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2710c1e795e68ff40a50674e6ece7bde
-      internalID: -7637988016015160798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_11
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 949
-        width: 188
-        height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b88d0cb7a27b1e4a8295f7d7eb92a1f
-      internalID: 8418297355577319098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_12
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 951
-        width: 102
-        height: 133
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 615f5b91814d87e47a89bc99b932e0de
-      internalID: 7909209693416409694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_13
-      rect:
-        serializedVersion: 2
-        x: 451
-        y: 938
-        width: 243
-        height: 146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac267b0662828ab43b837b8f5bd2cc4c
-      internalID: -3976133688951447518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_14
-      rect:
-        serializedVersion: 2
-        x: 692
-        y: 980
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e8ab07bccf6a1e4fa39ede8589045f7
-      internalID: -2891631275481539281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_15
-      rect:
-        serializedVersion: 2
-        x: 697
-        y: 939
-        width: 220
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 700b7abca22271948b90f0ade41483e2
-      internalID: 3865020406490666318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_16
-      rect:
-        serializedVersion: 2
-        x: 933
-        y: 937
-        width: 229
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 794a86626c6f8ca45a2fee5317bb2a24
-      internalID: -7409790378696218503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_20
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 814
-        width: 119
-        height: 116
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04bdc369d28b43041a5f8ec980632c6e
-      internalID: -8897499924752706312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_22
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 818
-        width: 116
-        height: 119
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2372ac5c20b2ce448a1c69984ef36869
-      internalID: 7220827363671793285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_23
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 826
+        x: 59
+        y: 1423
         width: 89
-        height: 88
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,20 +991,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7fba2c39f9364e409d1991e374a2437
-      internalID: 6547651502755696752
+      spriteID: 4225624217fca0441a2c543ca1ab6716
+      internalID: -473233481773189292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_24
+      name: Yago_21
       rect:
         serializedVersion: 2
-        x: 166
-        y: 830
-        width: 88
-        height: 88
+        x: 257
+        y: 1425
+        width: 92
+        height: 89
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,39 +1012,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e38b8d73764f41b429ff89945c1bf8eb
-      internalID: 5744790591687142572
+      spriteID: 86413774744a9f64e90a49b09b59837f
+      internalID: -7753563775213676674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_26
+      name: Yago_22
       rect:
         serializedVersion: 2
-        x: 866
-        y: 787
-        width: 119
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c732527a1150e0845b8a9f94ee0a200e
-      internalID: -4156448573965150469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_28
-      rect:
-        serializedVersion: 2
-        x: 1011
-        y: 778
+        x: 1199
+        y: 1389
         width: 118
         height: 118
       alignment: 0
@@ -790,20 +1033,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4263d0c1f5a4c484bbf0e94c912b9af0
-      internalID: 3635317116020105284
+      spriteID: 5069e57d79f8cb04fae42441f104de39
+      internalID: -3106601004814166276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_29
+      name: Yago_24
       rect:
         serializedVersion: 2
-        x: 314
-        y: 801
-        width: 88
-        height: 92
+        x: 1395
+        y: 1384
+        width: 115
+        height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,523 +1054,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd44f87686e214340b9f2fe3ae2cf30a
-      internalID: 8979643530265072535
+      spriteID: 4d182bf1eb7b62e4c92c02cb54cacf66
+      internalID: 1620316102957965206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_30
+      name: Yago_25
       rect:
         serializedVersion: 2
-        x: 442
-        y: 798
-        width: 88
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 381169df12fe65e428794a317dcaaa72
-      internalID: 2159503660030053025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_41
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 617
-        width: 97
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c00a4260635fc474eb52492ff46670d9
-      internalID: -6174732267972879476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_42
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 615
-        width: 98
-        height: 155
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 211f6c0f82ec26b429e2494c074793ed
-      internalID: 9122953474864415958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_43
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 618
-        width: 107
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d464d1ca717f11f419fffca2caa58f13
-      internalID: -3792316391171397225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_44
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 618
-        width: 108
-        height: 159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bfb59bc4df34794694c963680393bd3
-      internalID: -8971122660952578255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_45
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 618
-        width: 105
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4de2b45dbbd08c4fa2ff7a0ab053e9c
-      internalID: 1231729720793186655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_46
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 618
-        width: 196
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b3e888ba9b1964438894298d20387d6
-      internalID: -1291533545992509033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_47
-      rect:
-        serializedVersion: 2
-        x: 871
-        y: 617
-        width: 127
-        height: 161
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a5a39321df82749873e896433e011e
-      internalID: -8980310415400435575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_48
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 510
-        width: 95
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2669cec78256b0b459c99c4ff1a71fcb
-      internalID: -2129227742647700791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_49
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 510
-        width: 93
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5e42ea8dd4f45b4ca0606287940bcf3
-      internalID: 8677364168252573902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_50
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 506
-        width: 96
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74272f5708dd8a24b8a3aa6761c96ff0
-      internalID: 2353600433875940113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_51
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 462
-        width: 265
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ffefde1427b75c48a0fbdce94aecb3a
-      internalID: 7593346519081031818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_52
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 510
-        width: 156
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcbd862e03d7dbc44bfe507136c50f70
-      internalID: 1709396064022279148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_53
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 510
-        width: 161
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bd5bfb4eddb1634488ebb066d5310f5
-      internalID: 4227754936043882122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_54
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 382
-        width: 127
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb086e99856eaa8479a9e4e387ed7716
-      internalID: 3118788914075092907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_55
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 382
-        width: 119
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64764166ae43cb748b5efb8dba5c00cc
-      internalID: -1473371091884822680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_56
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 382
-        width: 113
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d631debcd8743ff4bb9add1afb89dc1f
-      internalID: 8216882258294003456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_57
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 382
-        width: 116
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fff05c348d0e0b548b8c8a062559523e
-      internalID: 5385164041763693826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_58
-      rect:
-        serializedVersion: 2
-        x: 513
-        y: 381
-        width: 129
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 180ae79b179db474b80730163a3e7baf
-      internalID: -933883441546117345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_59
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 382
-        width: 195
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf533d7acd9342545a9fd43eb3bb80da
-      internalID: 7691823753222316656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_60
-      rect:
-        serializedVersion: 2
-        x: 866
-        y: 382
-        width: 121
-        height: 108
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4942e7ccc4399594cb8b32a4895085d2
-      internalID: 1054911679504478455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_61
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 234
-        width: 125
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc14ebcdfc94f1b4e9866fda1c6c22ea
-      internalID: 178507119041401354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_62
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 242
-        width: 135
-        height: 120
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28e3aa04e10206a48b3e7f3740bef624
-      internalID: 8484370669345729540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_63
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 237
-        width: 124
-        height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9774ac7dab0e2b44a145ffcd305c486
-      internalID: -491853083009482869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_64
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 246
-        width: 123
+        x: 449
+        y: 1371
+        width: 91
         height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1336,20 +1075,629 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6c0d6325664a9a44af13127f5503d5a
-      internalID: -690417907752720959
+      spriteID: 4a39fa75a3539dc4e85ac354dd43ed0f
+      internalID: -760659778310644070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_65
+      name: Yago_26
       rect:
         serializedVersion: 2
-        x: 542
-        y: 238
+        x: 619
+        y: 1391
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4da5fe74ae4045429ce038b72448601
+      internalID: -4950276793319840045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_27
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1458
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd9df0bf11381647a343b028d8cfc45
+      internalID: 4883165851758516753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_31
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1426
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74e7f33a3456fd41b3fd804ed99476a
+      internalID: 6105335267488632691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_35
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1401
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3f8ec0f95b1e247a5fd78261515ff5
+      internalID: -5356981249629588440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1143
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7794fcd1beae6241a9cf7e1d5507f19
+      internalID: -1931770351757125512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1144
+        width: 100
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9572ef2c7b9ba14b90259352f668607
+      internalID: 1488590442053122897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_41
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1149
+        width: 109
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a919e0c2bc3eb8d4e83de7e2c649f019
+      internalID: -5832685031968071832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_42
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1150
+        width: 110
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47db36530c10eb247a2a4c1fc6b5240d
+      internalID: -3712448105492446468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_43
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1150
+        width: 104
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55aaf224cd57f146bb49b1529526ce9
+      internalID: 2234101440173509690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_44
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1153
+        width: 198
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c3bf93074996345b372ef0849eeee6
+      internalID: 3227054673437698417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_45
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1150
+        width: 155
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa55fdff8417ca41afe634d682c9ee8
+      internalID: 7249513478241496160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_46
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 911
+        width: 155
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50279563b534d2946b623613d47814bc
+      internalID: -5768674789527942316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_47
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 999
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e96da7f8e0a1e4b8d06ab95b415efd
+      internalID: 251342333757611993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_48
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 910
+        width: 161
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd1021beb6df5043aed0c23d8ee97b7
+      internalID: 6786893623569298273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 917
+        width: 93
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f621da6512f060348aec19f6123ca1a5
+      internalID: 5703255069997583128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 916
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa05ae217697c647975e8bd5eedf270
+      internalID: -5890809592650555271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_51
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 912
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2f0bfadeeb8c0469100732c6e09620
+      internalID: 4622167483117620226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_52
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 868
+        width: 280
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f291ef4894a077d46a9de0878e01edbd
+      internalID: -5520041221707471234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 683
+        width: 126
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbd60bfc59a362498fd1b32f2a7c122
+      internalID: -3245033413502040435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 680
+        width: 119
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdef49761d7c64f4c9d9498e2edabb76
+      internalID: 3138065756558369296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_55
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 679
+        width: 114
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea7e3b9d71014645a797377bc42918a
+      internalID: 3604105027081393736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_56
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 678
+        width: 114
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eab9aea6c056e4b951cb0c6c7228bf
+      internalID: 2857796449033803116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_57
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 674
+        width: 129
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66683d32db5cb34ebfa0b20146f1088
+      internalID: -1051565100412978760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_58
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 675
+        width: 195
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94854ebad9027c48ac993420ada12f8
+      internalID: -6852983658495454859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_59
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 662
+        width: 123
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc3a6d7352ebb44ca101a3ed6f13236
+      internalID: -8082981457841976821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_60
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 397
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ff02550ab571246890a7a649970638
+      internalID: -1454684846083984522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 394
+        width: 143
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c802d794701c20446914d23540f7913a
+      internalID: 301397299861445567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_62
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 393
+        width: 122
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527712b82ffa0274caffb3cd2763f9a8
+      internalID: -3057115037574386380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_63
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 389
+        width: 125
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafb518f126263343870a837638dd1ce
+      internalID: 7767811813836691528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_64
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 380
         width: 135
-        height: 128
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1357,41 +1705,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13af0582f487eef41a2e471151d3b845
-      internalID: 4879645738272974987
+      spriteID: 0a05bfd79a69bfb49b1690b67cb4e315
+      internalID: -5274560311782028131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_66
+      name: Yago_65
       rect:
         serializedVersion: 2
-        x: 682
-        y: 238
-        width: 132
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24e3b7cfe544e9e4b80dd8135a3edb7f
-      internalID: -4280395034810221441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_67
-      rect:
-        serializedVersion: 2
-        x: 816
-        y: 238
+        x: 846
+        y: 380
         width: 133
-        height: 128
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1399,40 +1726,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c63ef4b0e852ff43a28cc48ba239404
-      internalID: 2446231315646562765
+      spriteID: 2ff329c69313a5d468d6ae1d5dab2b75
+      internalID: -8621176974306909079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_68
+      name: Yago_66
       rect:
         serializedVersion: 2
-        x: 962
-        y: 238
+        x: 1006
+        y: 377
+        width: 135
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cc5d2122a04d542a7056d55886402d
+      internalID: 384454856476354866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_67
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 375
         width: 133
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d13539d09cdd854db6d57ef24c8719e
-      internalID: -5941937245485770629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ninja_69
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 103
-        width: 139
         height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1441,20 +1768,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22cbfb9d79a53644d826c167711a82bb
-      internalID: 6322926515393210474
+      spriteID: 61abb04ed99cf4140939cb1dc02d07e5
+      internalID: -7008519991031315110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_70
+      name: Yago_68
       rect:
         serializedVersion: 2
-        x: 150
-        y: 103
-        width: 212
-        height: 130
+        x: 3
+        y: 138
+        width: 141
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1462,20 +1789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90aef5c4eee391e42b6e33ca635538c8
-      internalID: -6308850540476551943
+      spriteID: d2fd00b828567cf45897b3b16b798fbf
+      internalID: 7080498829310347231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ninja_71
+      name: Yago_69
       rect:
         serializedVersion: 2
-        x: 374
-        y: 103
-        width: 149
-        height: 136
+        x: 192
+        y: 139
+        width: 215
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1483,8 +1810,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62cb7864b5b93aa4dbb6276397592837
-      internalID: -5679244402039908098
+      spriteID: f73dc5a615201d84581a12690b6f07c7
+      internalID: 8507451901325606204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_70
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 130
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7714d6eec60344c43a4e764772da1d98
+      internalID: 6599185102563163806
       vertices: []
       indices: 
       edges: []

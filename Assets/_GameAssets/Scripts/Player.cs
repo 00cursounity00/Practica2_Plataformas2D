@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             animator.SetBool("dispararNinjutsu", true);
-            Invoke("QuitarDispararNinjutsu", 0.2f);
+            Invoke("QuitarDispararNinjutsu", 0.1f);
             Disparar();
             //audios[AUDIO_SHURIKEN].Play();
         }
