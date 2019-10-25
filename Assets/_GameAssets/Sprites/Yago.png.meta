@@ -280,10 +280,10 @@ TextureImporter:
     second: Yago_19
   - first:
       213: -473233481773189292
-    second: Yago_20
+    second: Yago_s2
   - first:
       213: -7753563775213676674
-    second: Yago_21
+    second: Yago_s3
   - first:
       213: -3106601004814166276
     second: Yago_22
@@ -295,10 +295,10 @@ TextureImporter:
     second: Yago_24
   - first:
       213: -760659778310644070
-    second: Yago_25
+    second: Yago_s4
   - first:
       213: -4950276793319840045
-    second: Yago_26
+    second: Yago_s5
   - first:
       213: 4883165851758516753
     second: Yago_27
@@ -337,16 +337,16 @@ TextureImporter:
     second: Yago_38
   - first:
       213: -1931770351757125512
-    second: Yago_39
+    second: Yago_s0
   - first:
       213: 1488590442053122897
-    second: Yago_40
+    second: Yago_s1
   - first:
       213: -5832685031968071832
-    second: Yago_41
+    second: Yago_s6
   - first:
       213: -3712448105492446468
-    second: Yago_42
+    second: Yago_s7
   - first:
       213: 2234101440173509690
     second: Yago_43
@@ -938,9 +938,9 @@ TextureImporter:
       name: Yago_16
       rect:
         serializedVersion: 2
-        x: 790
+        x: 781
         y: 1404
-        width: 109
+        width: 118
         height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_20
+      name: Yago_s2
       rect:
         serializedVersion: 2
         x: 59
@@ -998,11 +998,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_21
+      name: Yago_s3
       rect:
         serializedVersion: 2
         x: 257
-        y: 1425
+        y: 1429
         width: 92
         height: 89
       alignment: 0
@@ -1061,7 +1061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_25
+      name: Yago_s4
       rect:
         serializedVersion: 2
         x: 449
@@ -1082,7 +1082,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_26
+      name: Yago_s5
       rect:
         serializedVersion: 2
         x: 619
@@ -1103,76 +1103,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_27
-      rect:
-        serializedVersion: 2
-        x: 780
-        y: 1458
-        width: 9
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fd9df0bf11381647a343b028d8cfc45
-      internalID: 4883165851758516753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yago_31
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 1426
-        width: 8
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a74e7f33a3456fd41b3fd804ed99476a
-      internalID: 6105335267488632691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yago_35
-      rect:
-        serializedVersion: 2
-        x: 815
-        y: 1401
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d3f8ec0f95b1e247a5fd78261515ff5
-      internalID: -5356981249629588440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yago_39
+      name: Yago_s0
       rect:
         serializedVersion: 2
         x: 51
-        y: 1143
+        y: 1138
         width: 98
-        height: 152
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1187,13 +1124,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_40
+      name: Yago_s1
       rect:
         serializedVersion: 2
         x: 209
         y: 1144
         width: 100
-        height: 158
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1208,13 +1145,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_41
+      name: Yago_s6
       rect:
         serializedVersion: 2
         x: 372
         y: 1149
         width: 109
-        height: 160
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,13 +1166,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yago_42
+      name: Yago_s7
       rect:
         serializedVersion: 2
-        x: 534
+        x: 535
         y: 1150
         width: 110
-        height: 158
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
