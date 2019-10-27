@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     private const int AUDIO_SHURIKEN = 0;
     private const int AUDIO_JUMP = 1;
     private bool enSuelo = false;
+    public enum EstadoPlayer {normal, recibiendoDano};
+    public EstadoPlayer estadoPlayer = EstadoPlayer.normal;
 
     void Start()
     {
@@ -66,15 +68,18 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Mathf.Abs(x) > 0.1f)
+        if (estadoPlayer == EstadoPlayer.normal)
         {
-            animator.SetBool("corriendo", true);
-            rb.velocity = new Vector2(x * velocidad, rb.velocity.y);
-        }
-        else
-        {
-            animator.SetBool("corriendo", false);
-            //rb.velocity = new Vector2(0, 0);
+            if (Mathf.Abs(x) > 0.1f)
+            {
+                animator.SetBool("corriendo", true);
+                rb.velocity = new Vector2(x * velocidad, rb.velocity.y);
+            }
+            else
+            {
+                animator.SetBool("corriendo", false);
+                //rb.velocity = new Vector2(0, 0);
+            }
         }
     }
 
@@ -97,6 +102,13 @@ public class Player : MonoBehaviour
     public void RecibirDano(float dano)
     {
         gm.QuitarVida(dano);
+        estadoPlayer = EstadoPlayer.recibiendoDano;
+        Invoke("QuitarRecibirDano", 0.5f);
+    }
+
+    private void QuitarRecibirDano()
+    {
+        estadoPlayer = EstadoPlayer.normal;
     }
 
     private void Disparar()
@@ -115,6 +127,8 @@ public class Player : MonoBehaviour
         if (ObtenerEnSuelo())
         {
             rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
+            animator.SetBool("saltando", true);
+            Invoke("QuitarSaltar", 0.1f);
             //rb.AddForce(new Vector2(0, 1) * fuerzaSalto);
         }
     }
@@ -125,13 +139,20 @@ public class Player : MonoBehaviour
 
         if (cd != null)
         {
-            animator.SetBool("saltando", true);
-            Invoke("QuitarDisparar", 0.1f);
-            GetComponent<CapsuleCollider2D>().sharedMaterial = null;
+            foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
+            {
+                cc.sharedMaterial = null;
+            }
+            animator.SetBool("enSuelo", true);
             return true;
         }
 
-        GetComponent<CapsuleCollider2D>().sharedMaterial = pm2d;
+        foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
+        {
+            cc.sharedMaterial = pm2d;
+        }
+
+        animator.SetBool("enSuelo", false);
         return false;
     }
 

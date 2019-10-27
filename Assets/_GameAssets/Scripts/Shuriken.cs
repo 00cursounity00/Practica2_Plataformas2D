@@ -27,8 +27,8 @@ public class Shuriken : MonoBehaviour
         if (collision.gameObject.GetComponent<Enemigo>() != null)
         {
             collision.gameObject.GetComponent<Enemigo>().RecibirDano(dano);
-            Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 
     private void Update()

@@ -11,7 +11,7 @@ public class Atacador : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(1,1) * fuerza);
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(1,1.5f) * fuerza;
             collision.gameObject.GetComponent<Player>().RecibirDano(dano);
         }
     }
