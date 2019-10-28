@@ -833,9 +833,9 @@ TextureImporter:
       name: Yago_10
       rect:
         serializedVersion: 2
-        x: 177
+        x: 127
         y: 1663
-        width: 200
+        width: 240
         height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1211,10 +1211,10 @@ TextureImporter:
       name: Yago_44
       rect:
         serializedVersion: 2
-        x: 894
-        y: 1153
-        width: 198
-        height: 160
+        x: 902
+        y: 1127
+        width: 292
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1232,10 +1232,10 @@ TextureImporter:
       name: Yago_45
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 1150
-        width: 155
-        height: 160
+        x: 1223
+        y: 1124
+        width: 153
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

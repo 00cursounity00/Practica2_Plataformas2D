@@ -9,7 +9,8 @@ public class Player : MonoBehaviour
     [SerializeField] float fuerza;
     [SerializeField] float fuerzaSalto;
     [SerializeField] GameObject prefabProyectil;
-    [SerializeField] Transform puntoDisparo;
+    [SerializeField] Transform puntoDisparoSuelo;
+    [SerializeField] Transform puntoDisparoAire;
     [SerializeField] Transform detectorSuelo;
     [SerializeField] LayerMask layerSuelo;
     [SerializeField] PhysicsMaterial2D pm2d;
@@ -113,8 +114,17 @@ public class Player : MonoBehaviour
 
     private void Disparar()
     {
-        GameObject proyectil = Instantiate(prefabProyectil, puntoDisparo.position, puntoDisparo.rotation);
-        proyectil.GetComponent<Rigidbody2D>().AddForce(puntoDisparo.right * fuerza);
+        if (animator.GetBool("enSuelo"))
+        {
+            print("suelo");
+            GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoSuelo.position, puntoDisparoSuelo.rotation);
+            //proyectil.GetComponent<Rigidbody2D>().AddForce(puntoDisparo.right * fuerza);
+        }
+        else
+        {
+            print("aire");
+            GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoAire.position, puntoDisparoAire.rotation);
+        }
     }
 
     private void QuitarDisparar()
@@ -139,19 +149,21 @@ public class Player : MonoBehaviour
 
         if (cd != null)
         {
-            foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
+            /*foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
             {
                 cc.sharedMaterial = null;
             }
+            GetComponent<BoxCollider2D>().sharedMaterial = null;*/
             animator.SetBool("enSuelo", true);
             return true;
         }
 
-        foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
+        /*foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
         {
             cc.sharedMaterial = pm2d;
         }
 
+        GetComponent<BoxCollider2D>().sharedMaterial = pm2d;*/
         animator.SetBool("enSuelo", false);
         return false;
     }
