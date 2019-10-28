@@ -26,7 +26,7 @@ public class Background : MonoBehaviour
         playerTransform = player.GetComponent<Transform>();
         posicionX = playerTransform.position.x;
         posicionY = playerTransform.position.y;
-        print(posicionX + "  --  " + transform.position.x);
+        //print(posicionX + "  --  " + transform.position.x);
     }
 
     public void EstablecrBg (int numeroBgNuevo, string nombreBgBaseNuevo)
@@ -61,7 +61,7 @@ public class Background : MonoBehaviour
         x = playerRb.velocity.x;
         y = playerRb.velocity.y;
 
-        print(posicionX + "  --  " + playerTransform.position.x);
+        //print(posicionX + "  --  " + playerTransform.position.x);
 
         if (Mathf.Abs(posicionX - playerTransform.position.x) > 0 || Mathf.Abs(posicionY - playerTransform.position.y) > 0)
         {

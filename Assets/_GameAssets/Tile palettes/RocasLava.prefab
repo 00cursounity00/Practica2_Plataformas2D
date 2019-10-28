@@ -50,6 +50,24 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -2, y: -5, z: 0}
+    second:
+      m_TileIndex: 36
+      m_TileSpriteIndex: 36
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -1, y: -5, z: 0}
+    second:
+      m_TileIndex: 37
+      m_TileSpriteIndex: 37
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: -3, y: -4, z: 0}
     second:
       m_TileIndex: 28
@@ -439,6 +457,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 180e82cf7a8373a4bb0d0b0cf8bf1b43, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 8526f85e53c6fb24ca4989b0d3ba3555, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 592bba96eb8cc424fa7f9ef96b81f2bd, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 418fe3f648e8b254b87d16a35e719c26, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 37fa24332a3514744900bc374d4280a4, type: 3}
@@ -512,8 +534,12 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: e91547b645f1cfc4eb593b6bdf3aaa54, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: c1263b10af7adc647a7808653d61c761, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 1cca8fe8555ae094ea857b375a1541ac, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: b08a5d10042b3714c973cc6c5228f483, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 36
+  - m_RefCount: 38
     m_Data:
       e00: 1
       e01: 0
@@ -532,7 +558,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 36
+  - m_RefCount: 38
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -614,7 +640,7 @@ GameObject:
   - component: {fileID: 2152253480870907204}
   - component: {fileID: 2443170222611977017}
   m_Layer: 31
-  m_Name: Caverna Lava
+  m_Name: RocasLava
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

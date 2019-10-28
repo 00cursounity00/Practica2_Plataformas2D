@@ -24,15 +24,18 @@ public class Player : MonoBehaviour
     private bool enSuelo = false;
     public enum EstadoPlayer {normal, recibiendoDano};
     public EstadoPlayer estadoPlayer = EstadoPlayer.normal;
+    private Vector2 posicionInicial;
 
     void Start()
     {
+        posicionInicial = transform.position;
         rb = GetComponent<Rigidbody2D>();
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         animator = GetComponent<Animator>();
         audios = GetComponents<AudioSource>();
+        ReubicarPlayer();
     }
-    
+
     void Update()
     {
         x = Input.GetAxis("Horizontal");
@@ -100,29 +103,51 @@ public class Player : MonoBehaviour
         }
     }*/
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Plataforma"))
+        {
+            transform.SetParent(collision.gameObject.transform);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Plataforma"))
+        {
+            transform.SetParent(null);
+        }
+    }
+
     public void RecibirDano(float dano)
     {
-        gm.QuitarVida(dano);
+        bool b = gm.QuitarVida(dano);
+        if (b)
+        {
+            ReubicarPlayer();
+        }
         estadoPlayer = EstadoPlayer.recibiendoDano;
+        animator.SetBool("recibiendoDano", true);
         Invoke("QuitarRecibirDano", 0.5f);
     }
 
     private void QuitarRecibirDano()
     {
         estadoPlayer = EstadoPlayer.normal;
+        animator.SetBool("recibiendoDano", false);
     }
 
     private void Disparar()
     {
         if (animator.GetBool("enSuelo"))
         {
-            print("suelo");
+            //print("suelo");
             GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoSuelo.position, puntoDisparoSuelo.rotation);
             //proyectil.GetComponent<Rigidbody2D>().AddForce(puntoDisparo.right * fuerza);
         }
         else
         {
-            print("aire");
+            //print("aire");
             GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoAire.position, puntoDisparoAire.rotation);
         }
     }
@@ -145,25 +170,25 @@ public class Player : MonoBehaviour
 
     private bool ObtenerEnSuelo()
     {
-        Collider2D cd = Physics2D.OverlapBox(detectorSuelo.position, new Vector2(0.457f,0.1f), 0, layerSuelo);
+        Collider2D cd = Physics2D.OverlapBox(detectorSuelo.position, new Vector2(0.6f,0.1f), 0, layerSuelo);
 
         if (cd != null)
         {
-            /*foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
+            foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
             {
                 cc.sharedMaterial = null;
             }
-            GetComponent<BoxCollider2D>().sharedMaterial = null;*/
+            //GetComponent<BoxCollider2D>().sharedMaterial = null;
             animator.SetBool("enSuelo", true);
             return true;
         }
 
-        /*foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
+        foreach (CapsuleCollider2D cc in GetComponents<CapsuleCollider2D>())
         {
             cc.sharedMaterial = pm2d;
         }
 
-        GetComponent<BoxCollider2D>().sharedMaterial = pm2d;*/
+        //GetComponent<BoxCollider2D>().sharedMaterial = pm2d;
         animator.SetBool("enSuelo", false);
         return false;
     }
@@ -171,5 +196,10 @@ public class Player : MonoBehaviour
     private void QuitarSaltar()
     {
         animator.SetBool("saltando", false);
+    }
+
+    private void ReubicarPlayer()
+    {
+        transform.position = gm.ObtenerPosicionPlayer(posicionInicial);
     }
 }

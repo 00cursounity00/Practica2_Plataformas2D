@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] int numeroVidasMax;
     [SerializeField] int puntuacion;
     private UIManager ui;
+    private const string PARAM_X = "x";
+    private const string PARAM_Y = "y";
 
     private void Start()
     {
@@ -25,7 +27,7 @@ public class GameManager : MonoBehaviour
         return numeroCorazones;
     }
 
-    public void QuitarVida(float dano)
+    public bool QuitarVida(float dano)
     {
         float resto = vidaCorazon - dano;
         vidaCorazon = resto;
@@ -38,6 +40,7 @@ public class GameManager : MonoBehaviour
 
             if (numeroCorazones == 0)
             {
+                return true;
                 RestarVida();
             }
         }
@@ -48,6 +51,7 @@ public class GameManager : MonoBehaviour
         }
 
         ui.ActualizarVida(numeroCorazones, vidaCorazon);
+        return false;
     }
 
     private void RestarVida()
@@ -59,5 +63,24 @@ public class GameManager : MonoBehaviour
     {
         puntuacion += puntos;
         ui.ActualizarPuntuacion(puntuacion);
+    }
+
+    public bool HayAlmacenadaPosicionPlayer()
+    {
+        return PlayerPrefs.HasKey(PARAM_X);
+    }
+
+    public void GuardarPosicionPlayer(Vector2 position)
+    {
+        PlayerPrefs.SetFloat(PARAM_X, position.x);
+        PlayerPrefs.SetFloat(PARAM_Y, position.y);
+        PlayerPrefs.Save();
+    }
+
+    public Vector2 ObtenerPosicionPlayer(Vector2 posicionInicial)
+    {
+        float x = PlayerPrefs.GetFloat(PARAM_X, posicionInicial.x);
+        float y = PlayerPrefs.GetFloat(PARAM_Y, posicionInicial.y);
+        return new Vector2(x, y);
     }
 }
