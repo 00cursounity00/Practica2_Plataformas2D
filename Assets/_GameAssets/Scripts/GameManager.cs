@@ -83,4 +83,11 @@ public class GameManager : MonoBehaviour
         float y = PlayerPrefs.GetFloat(PARAM_Y, posicionInicial.y);
         return new Vector2(x, y);
     }
+
+    public void ResetGame()
+    {
+        numeroCorazones = numeroCorazonesMax;
+        vidaCorazon = vidaCorazonMax;
+        ui.ResetVida();
+    }
 }

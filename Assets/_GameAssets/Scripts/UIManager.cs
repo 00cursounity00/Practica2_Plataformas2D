@@ -36,4 +36,13 @@ public class UIManager : MonoBehaviour
     {
         textoPuntuacion.text = puntuacion.ToString();
     }
+
+    public void ResetVida()
+    {
+        GameObject[] corazones = GameObject.FindGameObjectsWithTag("ContenedorSalud");
+        foreach (GameObject corazon in corazones)
+        {
+            corazon.GetComponent<Image>().fillAmount = 1;
+        }
+    }
 }

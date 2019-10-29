@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         animator = GetComponent<Animator>();
         audios = GetComponents<AudioSource>();
-        //ReubicarPlayer();
+        IniciarPosicion();
     }
 
     void Update()
@@ -63,8 +63,6 @@ public class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Fire2"))
         {
-            /*animator.SetBool("dispararNinjutsu", true);
-            Invoke("QuitarDispararNinjutsu", 0.1f);*/
             Saltar();
             //audios[AUDIO_JUMP].Play();
         }
@@ -121,10 +119,10 @@ public class Player : MonoBehaviour
 
     public void RecibirDano(float dano)
     {
-        bool b = gm.QuitarVida(dano);
-        if (b)
+        if (gm.QuitarVida(dano))
         {
-            ReubicarPlayer();
+            IniciarPosicion();
+            gm.ResetGame();
         }
         estadoPlayer = EstadoPlayer.recibiendoDano;
         animator.SetBool("recibiendoDano", true);
@@ -168,6 +166,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void QuitarSaltar()
+    {
+        animator.SetBool("saltando", false);
+    }
+
     private bool ObtenerEnAgua()
     {
         return animator.GetBool("enAgua");
@@ -198,12 +201,7 @@ public class Player : MonoBehaviour
         return false;
     }
 
-    private void QuitarSaltar()
-    {
-        animator.SetBool("saltando", false);
-    }
-
-    private void ReubicarPlayer()
+    private void IniciarPosicion()
     {
         transform.position = gm.ObtenerPosicionPlayer(posicionInicial);
         GameObject.Find("ParallaxBackground").transform.position = transform.position;
