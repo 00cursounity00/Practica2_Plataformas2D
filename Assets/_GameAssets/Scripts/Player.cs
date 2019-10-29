@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         animator = GetComponent<Animator>();
         audios = GetComponents<AudioSource>();
-        ReubicarPlayer();
+        //ReubicarPlayer();
     }
 
     void Update()
@@ -159,7 +159,7 @@ public class Player : MonoBehaviour
 
     private void Saltar()
     {
-        if (ObtenerEnSuelo())
+        if (ObtenerEnSuelo() || ObtenerEnAgua())
         {
             rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
             animator.SetBool("saltando", true);
@@ -168,9 +168,14 @@ public class Player : MonoBehaviour
         }
     }
 
+    private bool ObtenerEnAgua()
+    {
+        return animator.GetBool("enAgua");
+    }
+
     private bool ObtenerEnSuelo()
     {
-        Collider2D cd = Physics2D.OverlapBox(detectorSuelo.position, new Vector2(0.6f,0.1f), 0, layerSuelo);
+        Collider2D cd = Physics2D.OverlapBox(detectorSuelo.position, new Vector2(0.8f,0.1f), 0, layerSuelo);
 
         if (cd != null)
         {
@@ -178,7 +183,7 @@ public class Player : MonoBehaviour
             {
                 cc.sharedMaterial = null;
             }
-            //GetComponent<BoxCollider2D>().sharedMaterial = null;
+            GetComponent<BoxCollider2D>().sharedMaterial = null;
             animator.SetBool("enSuelo", true);
             return true;
         }
@@ -188,7 +193,7 @@ public class Player : MonoBehaviour
             cc.sharedMaterial = pm2d;
         }
 
-        //GetComponent<BoxCollider2D>().sharedMaterial = pm2d;
+        GetComponent<BoxCollider2D>().sharedMaterial = pm2d;
         animator.SetBool("enSuelo", false);
         return false;
     }
@@ -201,5 +206,6 @@ public class Player : MonoBehaviour
     private void ReubicarPlayer()
     {
         transform.position = gm.ObtenerPosicionPlayer(posicionInicial);
+        GameObject.Find("ParallaxBackground").transform.position = transform.position;
     }
 }

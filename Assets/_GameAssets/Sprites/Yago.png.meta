@@ -553,7 +553,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -833,9 +833,9 @@ TextureImporter:
       name: Yago_10
       rect:
         serializedVersion: 2
-        x: 127
-        y: 1663
-        width: 240
+        x: 202
+        y: 1664
+        width: 286
         height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -854,9 +854,9 @@ TextureImporter:
       name: Yago_11
       rect:
         serializedVersion: 2
-        x: 401
-        y: 1654
-        width: 101
+        x: 544
+        y: 1660
+        width: 135
         height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -875,10 +875,10 @@ TextureImporter:
       name: Yago_12
       rect:
         serializedVersion: 2
-        x: 552
-        y: 1641
-        width: 249
-        height: 150
+        x: 710
+        y: 1642
+        width: 256
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -896,10 +896,10 @@ TextureImporter:
       name: Yago_13
       rect:
         serializedVersion: 2
-        x: 818
-        y: 1626
-        width: 218
-        height: 153
+        x: 994
+        y: 1632
+        width: 254
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -917,10 +917,10 @@ TextureImporter:
       name: Yago_14
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 1629
-        width: 231
-        height: 149
+        x: 1289
+        y: 1630
+        width: 232
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,9 +981,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 59
-        y: 1423
-        width: 89
-        height: 91
+        y: 1380
+        width: 126
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1001,10 +1001,10 @@ TextureImporter:
       name: Yago_s3
       rect:
         serializedVersion: 2
-        x: 257
-        y: 1429
-        width: 92
-        height: 89
+        x: 232
+        y: 1367
+        width: 117
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1064,10 +1064,10 @@ TextureImporter:
       name: Yago_s4
       rect:
         serializedVersion: 2
-        x: 449
+        x: 411
         y: 1371
-        width: 91
-        height: 116
+        width: 129
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,9 +1086,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 619
-        y: 1391
-        width: 90
-        height: 88
+        y: 1370
+        width: 117
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1783,7 +1783,7 @@ TextureImporter:
         width: 100
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1791,6 +1791,48 @@ TextureImporter:
       bones: []
       spriteID: 834546ba5884b214abb48196899eae6d
       internalID: -1265271563885372127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_18
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 140
+        width: 171
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daa21927e246f74e9c2d4a833ab9c59
+      internalID: -5516603672414434410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_19
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 135
+        width: 190
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb74bf81bd78ed45bcb42cbe24f453b
+      internalID: -4121253367730894846
       vertices: []
       indices: 
       edges: []

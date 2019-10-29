@@ -63,11 +63,21 @@ public class Background : MonoBehaviour
 
         //print(posicionX + "  --  " + playerTransform.position.x);
 
-        if (Mathf.Abs(posicionX - playerTransform.position.x) > 0 || Mathf.Abs(posicionY - playerTransform.position.y) > 0)
+        if (Mathf.Abs(posicionX - playerTransform.position.x) > 0.01f || Mathf.Abs(posicionY - playerTransform.position.y) > 0.01f)
         {
             //if (Mathf.Abs(x) > 0 || Mathf.Abs(y) > 0)
             //{
+            if (Mathf.Abs(posicionX - playerTransform.position.x) > 0.01f)
+            {
                 factorX = (transform.position.x - transform.position.x + x) * Time.deltaTime * velocidadScrollX;
+            }
+            else
+            {
+                factorX = 0;
+            }
+
+            if (Mathf.Abs(posicionY - playerTransform.position.y) > 0.01f)
+            {
                 difY = transform.position.y - playerTransform.position.y;
 
                 if (difY < distanciaScrollBottom && difY > -distanciaScrollTop)
@@ -78,10 +88,15 @@ public class Background : MonoBehaviour
                 {
                     factorY = (transform.position.y - transform.position.y + y) * Time.deltaTime;
                 }
+            }
+            else
+            {
+                factorY = 0;
+            }
 
-                transform.Translate(new Vector2(factorX, factorY));
-                posicionX = playerTransform.position.x;
-                posicionY = playerTransform.position.y;
+            transform.Translate(new Vector2(factorX, factorY));
+            posicionX = playerTransform.position.x;
+            posicionY = playerTransform.position.y;
             //}
         }
 
