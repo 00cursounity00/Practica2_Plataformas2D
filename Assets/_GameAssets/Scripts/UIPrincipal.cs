@@ -9,4 +9,9 @@ public class UIPrincipal : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel1");
     }
+
+    public void Opciones()
+    {
+
+    }
 }
