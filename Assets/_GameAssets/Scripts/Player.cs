@@ -6,7 +6,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] float velocidad;
-    [SerializeField] float fuerza;
+    [SerializeField] float fuerzaDisparo;
+    [SerializeField] float cadenciaDisparo;
     [SerializeField] float fuerzaSalto;
     [SerializeField] GameObject prefabProyectil;
     [SerializeField] Transform puntoDisparoSuelo;
@@ -25,6 +26,8 @@ public class Player : MonoBehaviour
     public enum EstadoPlayer {normal, recibiendoDano};
     public EstadoPlayer estadoPlayer = EstadoPlayer.normal;
     private Vector2 posicionInicial;
+    private int parpadeos = 0;
+    private bool tieneCadencia = false;
 
     void Start()
     {
@@ -33,7 +36,8 @@ public class Player : MonoBehaviour
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         animator = GetComponent<Animator>();
         audios = GetComponents<AudioSource>();
-        IniciarPosicion();
+        //IniciarPosicion();
+        //StartCoroutine("Parpadeo");
     }
 
     void Update()
@@ -55,8 +59,6 @@ public class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            animator.SetBool("disparando", true);
-            Invoke("QuitarDisparar", 0.1f);
             Disparar();
             //audios[AUDIO_SHURIKEN].Play();
         }
@@ -70,7 +72,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (estadoPlayer == EstadoPlayer.normal)
+        if (animator.GetBool("recibiendoDano") == false)
         {
             if (Mathf.Abs(x) > 0.1f)
             {
@@ -119,35 +121,59 @@ public class Player : MonoBehaviour
 
     public void RecibirDano(float dano)
     {
-        if (gm.QuitarVida(dano))
+        if (estadoPlayer == EstadoPlayer.normal)
         {
-            IniciarPosicion();
-            gm.ResetGame();
+            if (gm.QuitarVida(dano))
+            {
+                IniciarPosicion();
+                gm.ResetGame();
+            }
+            estadoPlayer = EstadoPlayer.recibiendoDano;
+            animator.SetBool("recibiendoDano", true);
+            Invoke("QuitarRecibirDano", 0.5f);
         }
-        estadoPlayer = EstadoPlayer.recibiendoDano;
-        animator.SetBool("recibiendoDano", true);
-        Invoke("QuitarRecibirDano", 0.5f);
     }
 
     private void QuitarRecibirDano()
     {
-        estadoPlayer = EstadoPlayer.normal;
+        Invoke("QuitarEstadoRecibiendoDano", 1.6f);
+        InvokeRepeating("Parpadeo", 0, 0.2f);
         animator.SetBool("recibiendoDano", false);
+    }
+
+    private void QuitarEstadoRecibiendoDano()
+    {
+        estadoPlayer = EstadoPlayer.normal;
     }
 
     private void Disparar()
     {
-        if (animator.GetBool("enSuelo"))
+        if (tieneCadencia == false)
         {
-            //print("suelo");
-            GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoSuelo.position, puntoDisparoSuelo.rotation);
-            //proyectil.GetComponent<Rigidbody2D>().AddForce(puntoDisparo.right * fuerza);
+            animator.SetBool("disparando", true);
+            Invoke("QuitarDisparar", 0.1f);
+
+            if (animator.GetBool("enSuelo"))
+            {
+                //print("suelo");
+                GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoSuelo.position, puntoDisparoSuelo.rotation);
+                proyectil.GetComponent<Rigidbody2D>().AddForce(puntoDisparoSuelo.right * fuerzaDisparo);
+            }
+            else
+            {
+                //print("aire");
+                GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoAire.position, puntoDisparoAire.rotation);
+                proyectil.GetComponent<Rigidbody2D>().AddForce(puntoDisparoAire.right * fuerzaDisparo);
+            }
+
+            tieneCadencia = true;
+            Invoke("QuitarCadencia", cadenciaDisparo);
         }
-        else
-        {
-            //print("aire");
-            GameObject proyectil = Instantiate(prefabProyectil, puntoDisparoAire.position, puntoDisparoAire.rotation);
-        }
+    }
+
+    private void QuitarCadencia()
+    {
+        tieneCadencia = false;
     }
 
     private void QuitarDisparar()
@@ -205,5 +231,19 @@ public class Player : MonoBehaviour
     {
         transform.position = gm.ObtenerPosicionPlayer(posicionInicial);
         GameObject.Find("ParallaxBackground").transform.position = transform.position;
+    }
+    
+    private void Parpadeo ()
+    {
+        if (parpadeos < 8)
+        {
+            GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
+            parpadeos++;
+        }
+        else
+        {
+            parpadeos = 0;
+            CancelInvoke();
+        }
     }
 }
