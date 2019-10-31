@@ -524,6 +524,9 @@ TextureImporter:
   - first:
       213: -2797921366479338583
     second: Yago_101
+  - first:
+      213: -473233481773189292
+    second: Yago_20
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1804,7 +1807,7 @@ TextureImporter:
         width: 171
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1825,7 +1828,7 @@ TextureImporter:
         width: 190
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1833,6 +1836,48 @@ TextureImporter:
       bones: []
       spriteID: bcb74bf81bd78ed45bcb42cbe24f453b
       internalID: -4121253367730894846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_20
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2070
+        width: 103
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d03c9274d2213c4bb78e817bf43f672
+      internalID: -473233481773189292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yago_23
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2070
+        width: 93
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e57582ce23a7548a29fcff6fa9b159
+      internalID: 6012057925472617379
       vertices: []
       indices: 
       edges: []
